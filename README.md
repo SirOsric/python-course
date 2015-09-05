@@ -1,3 +1,3 @@
 # python-course
 Homework
-Hi, lad!
+Roman Vasilev
