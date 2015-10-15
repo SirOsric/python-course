@@ -1,18 +1,18 @@
-#List
+# List
 string = input()
 lst = string.split()
-i = 0 # odd
+i = 0  # odd
 odd = []
 even = []
-j = 1 # even
+j = 1  # even
 while i <= (len(lst) - 1):
     odd.append(lst[i])
     i += 2
-odd_sorted = sorted(odd, key = int)
+odd_sorted = sorted(odd, key=int)
 while j <= (len(lst)):
     even.append(lst[j])
     j += 2
-even_sorted = sorted(even, key = int, reverse = True)
+even_sorted = sorted(even, key=int, reverse=True)
 k = 0
 m = 0
 edited = list()
@@ -24,6 +24,6 @@ for n in range(len(lst)):
         edited.insert(n, odd_sorted[m]) 
         m += 1
 result = ' '.join(edited)
-#print(odd_sorted) - just checking both
-#print(even_sorted)
+# print(odd_sorted) - just checking both
+# print(even_sorted)
 print(result)

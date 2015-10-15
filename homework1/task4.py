@@ -1,4 +1,6 @@
 s = input()
+
+
 def counter(s):
     d = {}
     lst = sorted(list(s))
